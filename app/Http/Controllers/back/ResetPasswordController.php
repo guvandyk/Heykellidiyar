@@ -32,7 +32,7 @@ class ResetPasswordController extends Controller
     		Mail::to($admin->email)->send($mail);
     	}
 
-  toastr()->success(' Admin gmail.com gir we koduny tazele ');
+  toastr()->success(' Admin yandex.ru gir we koduny tazele ');
 
         return redirect()->route('admin.reset.password');
 

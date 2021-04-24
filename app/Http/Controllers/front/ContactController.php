@@ -42,7 +42,7 @@ class ContactController extends Controller
     		'message'=>$request->message,
     	];
 
-    	Mail::to('guwandyk123456@yandex.ru')->send(new ContactMail($details));
+    	Mail::to('heykellidiyar@yandex.ru')->send(new ContactMail($details));
          toastr()->success('Üstünlikli Ugradyldy!!!');
     	return back();
     }
