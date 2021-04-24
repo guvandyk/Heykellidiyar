@@ -41,7 +41,8 @@ class ContactController extends Controller
             'service'=>$request->service,
     		'message'=>$request->message,
     	];
-    	Mail::to('atajanovguvandyk@gmail.com')->send(new ContactMail($details));
+
+    	Mail::to('guwandyk123456@yandex.ru')->send(new ContactMail($details));
          toastr()->success('Üstünlikli Ugradyldy!!!');
     	return back();
     }

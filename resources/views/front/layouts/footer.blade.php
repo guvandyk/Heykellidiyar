@@ -55,7 +55,7 @@
 											<div>
 												<p class="my-0">@lang('home.Developed by')</p>
 												<center>
-													<a href="https://takyk.com/">
+													<a href="https://takyk.com" target="_blank">
 														<img
 															src="{{ asset('front/') }}/images/takyk_logo.png"
 															style="height: 42px; width: 125px;" 
